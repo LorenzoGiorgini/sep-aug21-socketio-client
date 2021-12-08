@@ -2,6 +2,6 @@ import { Room } from "./Room";
 
 export interface IUser {
   username: string
-  id: string,
+  socketId: string,
   room: Room
 }
